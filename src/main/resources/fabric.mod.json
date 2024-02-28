@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "createbetterend",
+	"version": "${version}",
+	"name": "Create: Better End",
+	"description": "Adds Better End crafting recipes to Create!",
+	"authors": [
+		"astra"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/createbetterend/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.astra.createbe.CreateBetterEnd"
+		],
+		"client": [
+			"net.astra.createbe.CreateBetterEndClient"
+		],
+		"fabric-datagen": [
+			"net.astra.createbe.CreateBetterEndDataGenerator"
+		]
+	},
+	"mixins": [
+		"createbetterend.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

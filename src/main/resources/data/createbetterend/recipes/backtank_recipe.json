@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "create:netherite_backtank"
+  },
+  "addition": {
+    "item": "betterend:aeternium_forged_plate"
+  },
+  "result": {
+    "item": "minecraft:iron_ingot"
+  },
+  "template": {
+    "item": "betterend:plate_upgrade_smithing_template"
+  }
+}
